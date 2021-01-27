@@ -1,0 +1,12 @@
+#ifndef SALES_DATA_H
+#definde SALES_DATA_H
+
+#include <string>
+
+struct Sales_data {
+  std::string bookNo;
+  unisgned units_sold = 0;
+  double totalRevenue = 0.0;
+};
+
+

@@ -1,0 +1,5 @@
+*.out
+*.o
+*.cpp~
+/coding_probe
+.gitignore~
