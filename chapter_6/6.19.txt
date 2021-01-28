@@ -1,0 +1,6 @@
+a) is not fine becaust two doubles are used
+b) is fine because the first passed argument is a string and the second is a char
+c) is not fine becaust two doubles are used and the function only takes one
+d) is fine because the first two arguments are iterator class ans the third is a plain int
+
+
