@@ -8,3 +8,5 @@
 /coding_probe
 .gitignore~
 .DS_Store
+*.txt#
+.*.*
