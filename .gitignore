@@ -1,0 +1,13 @@
+*
+!*/
+!*.*
+*.out
+*.[oa]
+*.cpp~
+*~
+/coding_probe
+.gitignore~
+.DS_Store
+*.txt#
+.*.*
+*.exe
