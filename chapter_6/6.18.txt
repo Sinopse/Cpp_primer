@@ -1,0 +1,2 @@
+a) bool compare(matrix &m1, matrix &m2)
+b) std::vector<int> change_val(int i, std::vector<int>::iterator it)

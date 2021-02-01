@@ -1,30 +1,29 @@
 #include <iostream>
 #include "Sales_item.h"
 
-using std::cout; using std::cin; using std::cerr; using std::endl;
-
 int main ()
 {
 
   Sales_item total;
 
-  if (cin >> total) {
-
+  if (std::cin >> total) {
+    
     Sales_item trans;
-
-    while (cin >> trans) {
+    
+    while (std::cin >> trans) {
       if (total.isbn() == trans.isbn()) {
 	total += trans;
       }
       else {
-	cout << total << endl;
+	std::cout << total << std::endl;
 	total = trans;
       }
     }
-    cout << total << endl;
+    std::cout << total << std::endl;
+
   }
   else {
-    cerr << "No books" << endl;
+    std::cerr << " No input data?" << std::endl;
     return -1;
   }
   return 0;
