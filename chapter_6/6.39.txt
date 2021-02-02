@@ -1,0 +1,7 @@
+a) is legal, the second declaration just redeclares the first one
+
+b) illegal, because two function differ in the return types
+
+c) it is legal, because the compiler will compare the arguments lsit with the
+passed parameters and determine  which function to call
+

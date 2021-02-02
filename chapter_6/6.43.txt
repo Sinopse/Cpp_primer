@@ -1,0 +1,7 @@
+a) the first declaration will gointo a header file, because it can be
+redefined multiple times as it is a small function. All the
+definitions must match exactly.
+
+b) the second declaration should also do into a header file, because
+it declares a function, which is then used by the compiler. The linker
+links the declaration and the definition

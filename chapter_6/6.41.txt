@@ -1,0 +1,11 @@
+a) the first call is illegal because no arguments are supplied annd
+the firsst argument must be supplied
+
+b) legal call, likely to match the programmer's intent, becuase
+argumetns are proovided and the third one is default argument
+
+c) is legal but won't match expectations because the first passed
+argument will initialize the first parameter, ans the second one is
+default and will be converted to its decimal representation
+
+
