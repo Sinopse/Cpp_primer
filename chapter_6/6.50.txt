@@ -1,0 +1,10 @@
+a) there is no match because the call is ambiguous;
+
+b)the second fucntion is the best match because iit takes exactly one
+argument of type int
+
+c)the third fucntion is the best match as it takes two parameters of
+type int; no conversion needed
+
+d) the fourth declaration is the best match since it tajes two
+parameters of type double

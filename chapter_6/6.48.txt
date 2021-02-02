@@ -1,0 +1,4 @@
+The presented loop takes in an input and proceeds if s is not equal
+sought. The assert() statemenst should be used to test impossible
+conditions. In the given case it prints out an error mesage if no
+input was given, which results in the program termination

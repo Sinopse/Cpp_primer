@@ -1,0 +1,6 @@
+a candidate function is a fucntion with the same name as the called
+functuon and for which a declaration is visible at the point of the
+call
+
+a viable function is a function that has the same number of parameters
+as there are arguments in the call, and the type of each argument must match

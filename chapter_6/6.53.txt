@@ -1,0 +1,10 @@
+a) the second call must be supplied with two const reference to
+int. The compiler will decide which function to call based on the
+constness of the arguments supplied
+
+b) the aboce said applies here as well
+
+c) this call is ambiguos because we are dealing in the second
+decalration with top-level constants. Top-level constants are
+discraded in function matching and thus the two calls are identical
+resulting in a conversion from a pointer to char to int 

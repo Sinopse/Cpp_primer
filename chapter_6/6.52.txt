@@ -1,0 +1,5 @@
+a) the rank of this conversion is 3 because it is a promotion (from
+char to int)
+
+b) the rank of this conversion is 4 because is is an arithmetic
+promotion from double to int
