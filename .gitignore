@@ -10,4 +10,11 @@
 .DS_Store
 *.txt#
 .*.*
+<<<<<<< HEAD
 *.cpp#
+=======
+<<<<<<< HEAD
+*.exe
+=======
+>>>>>>> 2d6c3b0c213c462f1d9da6cf493626c576ef8068
+>>>>>>> 96c80b826bda00051eef2f42dc36c310dc1ea3bc

@@ -7,13 +7,14 @@ using std:: vector;
 
 int main() {
 
-  vector<int> v1(10, 42);
-  vector<string> v2{10, "42"};
-  vector<int> v3{42, 42, 42, 42, 42, 42,
-    42, 42, 42, 42, 42};
+  vector<int> ivec{1, 2, 3, 4, 5};
   
-  for (auto i : v3)
-    cout << i << endl;
+  for (auto it = ivec.begin();
+       it != ivec.end(); ++it) {
+    cout << *it << endl;
+  }
 
   return 0;
 }
+
+    
