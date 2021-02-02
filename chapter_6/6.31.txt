@@ -1,0 +1,4 @@
+it is wrong to return a reference to a local object, since when a function terminates, references to local objects are also
+destroyed
+to return a reference to const is a viable solution when the underlying object should not be modified; we cannot assign to
+the result of the call
