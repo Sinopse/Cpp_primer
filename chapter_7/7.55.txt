@@ -1,0 +1,3 @@
+no, the Data class is not a literall class because it ha a string
+member, which is not of literal type. Plus, it doesn't a single
+cosntexpr constructor

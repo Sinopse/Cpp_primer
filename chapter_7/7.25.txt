@@ -1,0 +1,5 @@
+Our class screen can safely rely on on the default versions if copy
+and assignment because the compiler synthesizes the those operation
+for us, which will then correctly work for std:: library classes like
+string or vector, which in turn do not rely on memory
+allocation/deallocation.

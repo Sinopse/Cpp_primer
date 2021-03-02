@@ -1,0 +1,16 @@
+static members are members that exist outside any object and are
+associated with a class.
+
+One of the advantages is that class instances can share static members
+between ecah other, in other words, they all have access to them.
+
+static mmebers can be defined outside the class body
+
+You do not need a constructor to initialize them.
+
+A static member definition may access the private members of its
+class.
+
+static members can have incomplete types.
+
+static members can be used as default arguments

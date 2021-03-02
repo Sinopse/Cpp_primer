@@ -1,0 +1,3 @@
+It will be illegal for both constructors tot ake as tring and an
+istream to have default arguments because the call to Sales_data()
+will be ambigous

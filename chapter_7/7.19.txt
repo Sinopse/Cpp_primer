@@ -1,0 +1,3 @@
+The name and address of the Person class should be privata, so as to
+hide it from from the interface. Member functions such as display_name
+and display_address should be public and acessible outisde the class

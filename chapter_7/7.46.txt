@@ -1,0 +1,11 @@
+Which, if any of the followinf is true?
+
+1) False
+
+2) A default constructor is a constructor that provides parameter
+initialization list
+
+3) True because otherwise tha calss cannot be used -> use the
+synthesized constructor if it is enough
+
+4) True, generates if it is possible to do so

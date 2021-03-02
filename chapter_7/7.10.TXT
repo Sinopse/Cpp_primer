@@ -1,0 +1,2 @@
+The condition if the presented if statement checks if there is a read
+from data1 which is in turn is provided by the cin method ans from data2

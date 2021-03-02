@@ -1,0 +1,6 @@
+Friends are useful when we have nonmember functions which are denied
+acces to the members of the class since they are not public. The pros
+are that the data is more encapsulated and protected from user
+intrusion but on the other hand friends make syntax and code unwieldy
+introducing declaration of friends inside of the class, whereas they are normally
+declared and defined outside it.

@@ -1,0 +1,4 @@
+The difference between using clas nad struct is only the default
+access level:
+struct -> public
+class -> private

@@ -1,0 +1,8 @@
+Both access specifiers remain in effect until the next specifier of
+the end of the class body
+
+- The constructors and meber fucntions that are part of the interface
+  are public
+
+- the data members and the functions that are part of the
+  implementation are private

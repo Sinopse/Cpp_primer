@@ -1,0 +1,8 @@
+The program with the given member definition won't compile because
+type pos is out of scope as it was declared in the Screen class. Thus,
+we must the Screen class scope to make the type visible by:
+
+Screen::pos Screen::size() const
+{
+	return height * width;
+}

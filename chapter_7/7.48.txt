@@ -1,0 +1,9 @@
+If Sales_data contructors are not explicit:
+
+1) A Sales_data object is created from a string implicitly
+2) A Sales_data object is created from a string explicitly
+
+If the Sales_data constructors were explicit we will be able only to
+directly initialize a Sales_data object from a string (implicitly)
+
+

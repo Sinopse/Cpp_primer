@@ -1,0 +1,9 @@
+a) An implicit comversion is performed from string to Sales_Data
+object. Then the combine function uses a copy of the object as an
+argument for the fucntion. The result of the function is returned as a
+reference to i. The copies are destroyed.
+
+b) Same as above but the fucntion returns a reference and not a copy
+is returned.
+
+c) combine is a const member function, which forbifds object modification

@@ -1,0 +1,4 @@
+Encapsulation is separation of the program's interface from its
+implementation
+It is useful because it doesn't allow the user to have access to the
+implementation of the class

@@ -1,0 +1,3 @@
+It is redundant to refer to members throughthe this pointer because by
+returning a dereferences pointer we already return the underlyinsg
+object (class member) with the aattributes of that object.

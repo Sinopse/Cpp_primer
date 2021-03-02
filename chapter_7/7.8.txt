@@ -1,0 +1,6 @@
+We define read()'s Sales_data parameter as a plain reference becauce
+when using this function we modify the object as we calculate
+item.totalRevenue
+
+in the function print() we don't need to write anything or change our
+object item, hence it is defined as a reference const
